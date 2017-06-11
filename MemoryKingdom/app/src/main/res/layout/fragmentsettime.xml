@@ -54,7 +54,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/settimeconfirm1"
-                            android:background="@drawable/buttonshape1"
+                            style="@style/Widget.AppCompat.Button.Colored"
                              />
 
                     </LinearLayout>
@@ -86,7 +86,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/settimeconfirm2"
-                            android:background="@drawable/buttonshape1"/>
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            />
                     </LinearLayout>
                     <TextView
                         android:layout_marginTop="10dp"
@@ -113,7 +114,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/settimeconfirm3"
-                            android:background="@drawable/buttonshape1"
+                            style="@style/Widget.AppCompat.Button.Colored"
                             />
                     </LinearLayout>
 
@@ -143,7 +144,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/settimeconfirm4"
-                            android:background="@drawable/buttonshape1" />
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            />
                     </LinearLayout>
                     <TextView
                         android:layout_marginTop="10dp"
@@ -170,7 +172,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/settimeconfirm5"
-                            android:background="@drawable/buttonshape1" />
+                            style="@style/Widget.AppCompat.Button.Colored" />
                     </LinearLayout>
                 </LinearLayout>
 

@@ -30,7 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/MFtoSF"
-            android:background="@drawable/buttonshape1"/>
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
     </LinearLayout>
 
 </LinearLayout>

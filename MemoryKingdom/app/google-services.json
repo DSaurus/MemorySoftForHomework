@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "710864422850",
+    "firebase_url": "https://memorykingdom-8bcc6.firebaseio.com",
+    "project_id": "memorykingdom-8bcc6",
+    "storage_bucket": "memorykingdom-8bcc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710864422850:android:3c815687ef036ef6",
+        "android_client_info": {
+          "package_name": "cn.studyjams.s2.sj0175.MY_Devotion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710864422850-pcoj2p94sj6d4ghhimbinpibn708tucd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cn.studyjams.s2.sj0175.MY_Devotion",
+            "certificate_hash": "173ffba3051dfd5ebaee71f212059c53d4489ec3"
+          }
+        },
+        {
+          "client_id": "710864422850-fddeotlt4vrl0l7djie0u2os20jsjior.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3RangLzSIIKeHA0pyf1SMFxbPqT5IHGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710864422850-fddeotlt4vrl0l7djie0u2os20jsjior.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

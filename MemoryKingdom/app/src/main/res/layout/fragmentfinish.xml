@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.andexert.library.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ripple="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        ripple:rv_type="rectangle">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/missioncomplete"
+        android:id="@+id/imageView4" />
+    </com.andexert.library.RippleView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/thxwennai2"
+        >
+        <com.andexert.library.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:ripple="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            ripple:rv_type="rectangle">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/thankyou"
+            android:id="@+id/imageView5" />
+        </com.andexert.library.RippleView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:text="返回主界面"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/returnmain"
+                android:background="@drawable/buttonshape1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

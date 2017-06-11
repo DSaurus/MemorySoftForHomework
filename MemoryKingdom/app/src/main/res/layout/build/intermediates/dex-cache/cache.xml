@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\a\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_67ed8ac14fcf1e1b463e31deb68f7cd91e3d823c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\04bfd133fd889e2bfee780258fa1ee620b2df517\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_09c7089f69f98def7fe37e9950dbeadd106a42df\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\0fc84a6d582adbfcf78e1d1092dc3b7080e086a9\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_515fe7a39ecebfbe4bf36e8e5d68dc6c73eede9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\2931d6ae9adf9d451422dd415062463d82dd451e\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_efe4cc54b498a1ad0e3418202dd04afcbe9c27cd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\2931d6ae9adf9d451422dd415062463d82dd451e\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_efe4cc54b498a1ad0e3418202dd04afcbe9c27cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\a3b424a00162379578727e215734d638b519e9cc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\classes_8d2495d1e186861de19c3f8546e289d0f2783519.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\2494dc0ad816be77f62b7d0e717cb45ac7202564\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3461c6b63d5408ea46c420dea9613e47b8208b15\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\2494dc0ad816be77f62b7d0e717cb45ac7202564\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\classes_3461c6b63d5408ea46c420dea9613e47b8208b15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\1f01643a8e7444520418a183e949c2fedc62dac5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\classes_c584b80806598c987742a64cc57deaf96510b7f9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\a3b424a00162379578727e215734d638b519e9cc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8d2495d1e186861de19c3f8546e289d0f2783519\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\1f01643a8e7444520418a183e949c2fedc62dac5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c584b80806598c987742a64cc57deaf96510b7f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android\e\MemoryKingdom-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_31911e65334ef5d43edce5f84b73f9d098c8b70c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\0fc84a6d582adbfcf78e1d1092dc3b7080e086a9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_34c6db85fc07d1728385e6f95944aef37511216c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\b2a25032b9ee8b8154413a49b89056d2dd58145b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\classes_01a1a47cdba02c25be851824538d63bc9f8875af.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\b2a25032b9ee8b8154413a49b89056d2dd58145b\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_e9a31267a74535d0b23d1db0a310a0395a3ad7d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\0fc84a6d582adbfcf78e1d1092dc3b7080e086a9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\classes_34c6db85fc07d1728385e6f95944aef37511216c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\b2a25032b9ee8b8154413a49b89056d2dd58145b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01a1a47cdba02c25be851824538d63bc9f8875af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\cefa06bb511e11263b2bf93c656e82a42c10db59\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_42be2e4ad744681563e5347eb890e335416fea3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\b2a25032b9ee8b8154413a49b89056d2dd58145b\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_e9a31267a74535d0b23d1db0a310a0395a3ad7d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\cefa06bb511e11263b2bf93c656e82a42c10db59\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\classes_42be2e4ad744681563e5347eb890e335416fea3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android\e\MemoryKingdom-master\hellocharts-android-master\hellocharts-library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="03e52dcebb07486cff391468528545947978f741">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\classes_c18edbc2dac70c40a6cafacaa0c6f53b12b29f67.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\2931d6ae9adf9d451422dd415062463d82dd451e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_31558033c9e02724775b4e4bc73f54baa6ca614f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android\e\MemoryKingdom-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c6793cd1d941a81c9ccef083d9f93fe97695b1e4">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3ac4d1218d5b150198c67c7386be96288207cdfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\62d6c7e07b47df7111b5ec7799056f810e36be05\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\classes_8b61ef2f41cf143b8c0f1ee25b7969c8448e1828.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\2931d6ae9adf9d451422dd415062463d82dd451e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\classes_31558033c9e02724775b4e4bc73f54baa6ca614f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\04bfd133fd889e2bfee780258fa1ee620b2df517\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c95689d95c38ebcfdbee95a3a0c89ae609262b26\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\04bfd133fd889e2bfee780258fa1ee620b2df517\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\classes_c95689d95c38ebcfdbee95a3a0c89ae609262b26.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\0fc84a6d582adbfcf78e1d1092dc3b7080e086a9\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_515fe7a39ecebfbe4bf36e8e5d68dc6c73eede9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\1f01643a8e7444520418a183e949c2fedc62dac5\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_68eeb49ce322d0a2954b29b2f380e1a9b00d44c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\04bfd133fd889e2bfee780258fa1ee620b2df517\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_09c7089f69f98def7fe37e9950dbeadd106a42df.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\62d6c7e07b47df7111b5ec7799056f810e36be05\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8b61ef2f41cf143b8c0f1ee25b7969c8448e1828\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\1f01643a8e7444520418a183e949c2fedc62dac5\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_68eeb49ce322d0a2954b29b2f380e1a9b00d44c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\a\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="E:\android\e\MemoryKingdom-master\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_67ed8ac14fcf1e1b463e31deb68f7cd91e3d823c.jar" />
+    </item>
+
+</items>

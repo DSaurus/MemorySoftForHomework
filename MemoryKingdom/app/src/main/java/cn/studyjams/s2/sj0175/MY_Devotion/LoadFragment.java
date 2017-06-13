@@ -19,6 +19,8 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.gc.materialdesign.views.ButtonRectangle;
+
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -53,7 +55,7 @@ public class LoadFragment extends Fragment{
     Map<String, Integer> map = new HashMap<>();
     EditText txtname;
     TextView loadtxt;
-    Button loadbutton, loadconfirm;
+    ButtonRectangle loadbutton, loadconfirm;
     Switch loadtype;
     File location;
     String ESD = Environment.getExternalStorageDirectory().getPath()+"/MemoryPalace/";
@@ -68,8 +70,8 @@ public class LoadFragment extends Fragment{
     public Mylistener listener;
     public void layoutinit() {
         txtname = (EditText) view.findViewById(R.id.editlearntxt);
-        loadbutton = (Button) view.findViewById(R.id.loadbutton);
-        loadconfirm = (Button) view.findViewById(R.id.loadconfirm);
+        loadbutton = (ButtonRectangle) view.findViewById(R.id.loadbutton);
+        loadconfirm = (ButtonRectangle) view.findViewById(R.id.loadconfirm);
         loadtxt = (TextView) view.findViewById(R.id.loadtxt);
         loadtype = (Switch) view.findViewById(R.id.loadtype);
         loadtype.setChecked(true);
@@ -406,7 +408,7 @@ public class LoadFragment extends Fragment{
         loadconfirm.setOnClickListener(new loadconfirmlistener());
         loadbutton.setOnClickListener(new loadbuttonlistener());
 
-        Button defaultload = (Button) view.findViewById(R.id.testloadbt);
+        ButtonRectangle defaultload = (ButtonRectangle) view.findViewById(R.id.testloadbt);
         defaultload.setOnClickListener(new Defaultloadlistener());
         return view;
     }

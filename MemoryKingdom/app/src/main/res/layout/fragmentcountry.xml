@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -77,47 +78,33 @@
             android:layout_height="75dp"
             android:layout_marginBottom="10dp"
             android:gravity="bottom"
+            xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
             android:orientation="horizontal">
 
-            <com.andexert.library.RippleView
-                android:id="@+id/rect_todaytask"
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/todaytask"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                ripple:rv_type="rectangle"
-                android:background="@drawable/selector_row"
-                ripple:rv_zoom="true">
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                app:rippleSpeed="8"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="开始任务" />
 
-                <Button
-                    android:id="@+id/todaytask"
-                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true"
 
-                    android:text="开始任务" />
-            </com.andexert.library.RippleView>
 
-            <com.andexert.library.RippleView
-                android:id="@+id/rect_memoryfunction"
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/memoryfunction"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/selector_row"
-                ripple:rv_type="rectangle"
-                ripple:rv_zoom="true">
-
-                <Button
-                    android:id="@+id/memoryfunction"
-
-                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true"
-                    android:text="记忆管理" />
-            </com.andexert.library.RippleView>
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                app:rippleSpeed="5"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="记忆管理" />
 
         </LinearLayout>
 

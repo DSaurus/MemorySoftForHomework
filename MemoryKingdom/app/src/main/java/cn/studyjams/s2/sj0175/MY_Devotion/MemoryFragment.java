@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.gc.materialdesign.views.ButtonRectangle;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -240,7 +242,7 @@ public class MemoryFragment extends Fragment {
         learndata = getArguments().get("data")+"";
         learncatfile = new File(ESD + learndata + "cat.txt");
         drawline();
-        Button tosf = (Button) view.findViewById(R.id.MFtoSF);
+        ButtonRectangle tosf = (ButtonRectangle) view.findViewById(R.id.MFtoSF);
         tosf.setOnClickListener(new Settimelistener());
         return view;
     }

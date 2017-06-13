@@ -49,10 +49,10 @@
                             android:id="@+id/settimebar1"
                             android:layout_weight="1" />
 
-                        <Button
-                            android:text="Button"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                        <com.gc.materialdesign.views.ButtonRectangle
+                            android:text="修改"
+                            android:layout_width="65dp"
+                            android:layout_height="40dp"
                             android:id="@+id/settimeconfirm1"
                             style="@style/Widget.AppCompat.Button.Colored"
                              />
@@ -81,10 +81,10 @@
                             android:id="@+id/settimebar2"
                             android:layout_weight="1" />
 
-                        <Button
-                            android:text="Button"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                        <com.gc.materialdesign.views.ButtonRectangle
+                            android:text="修改"
+                            android:layout_width="65dp"
+                            android:layout_height="40dp"
                             android:id="@+id/settimeconfirm2"
                             style="@style/Widget.AppCompat.Button.Colored"
                             />
@@ -109,10 +109,10 @@
                             android:id="@+id/settimebar3"
                             android:layout_weight="1" />
 
-                        <Button
-                            android:text="Button"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                        <com.gc.materialdesign.views.ButtonRectangle
+                            android:text="修改"
+                            android:layout_width="65dp"
+                            android:layout_height="40dp"
                             android:id="@+id/settimeconfirm3"
                             style="@style/Widget.AppCompat.Button.Colored"
                             />
@@ -139,10 +139,10 @@
                             android:id="@+id/settimebar4"
                             android:layout_weight="1" />
 
-                        <Button
-                            android:text="Button"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                        <com.gc.materialdesign.views.ButtonRectangle
+                            android:text="修改"
+                            android:layout_width="65dp"
+                            android:layout_height="40dp"
                             android:id="@+id/settimeconfirm4"
                             style="@style/Widget.AppCompat.Button.Colored"
                             />
@@ -167,10 +167,10 @@
                             android:id="@+id/settimebar5"
                             android:layout_weight="1" />
 
-                        <Button
-                            android:text="Button"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                        <com.gc.materialdesign.views.ButtonRectangle
+                            android:text="修改"
+                            android:layout_width="65dp"
+                            android:layout_height="40dp"
                             android:id="@+id/settimeconfirm5"
                             style="@style/Widget.AppCompat.Button.Colored" />
                     </LinearLayout>

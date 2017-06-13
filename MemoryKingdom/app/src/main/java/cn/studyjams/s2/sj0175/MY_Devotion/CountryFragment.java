@@ -12,6 +12,8 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.gc.materialdesign.views.ButtonRectangle;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -161,7 +163,9 @@ public class CountryFragment extends Fragment {
 
     //layout布局设置
     View view;
-    Button tasks, memory;
+
+    ButtonRectangle tasks;
+    ButtonRectangle memory;
     PieChartView datachartview;
     PieChartData datachart;
     SeekBar seekbar;
@@ -174,8 +178,8 @@ public class CountryFragment extends Fragment {
     public void layoutinit()
     {
         listener = (Mylistener)getActivity();
-        tasks = (Button) view.findViewById(R.id.todaytask);
-        memory = (Button) view.findViewById(R.id.memoryfunction);
+        tasks = (ButtonRectangle) view.findViewById(R.id.todaytask);
+        memory = (ButtonRectangle) view.findViewById(R.id.memoryfunction);
         datachartview = (PieChartView) view.findViewById(R.id.dataanalysechart);
         newdatachartview = (PieChartView) view.findViewById(R.id.newdatalearnchart);
         datachartview.setOnValueTouchListener(new datachartlistener());

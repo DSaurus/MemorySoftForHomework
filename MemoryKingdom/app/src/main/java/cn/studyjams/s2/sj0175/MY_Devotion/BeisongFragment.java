@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.gc.materialdesign.views.ButtonRectangle;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -180,7 +182,8 @@ public class BeisongFragment extends Fragment implements View.OnClickListener{
     //layout设置
     View view;
     TextView q, a, mode, texttime, level, selectlevel;
-    Button memory_1, memory_2, memory_3, nextwordbutton;
+    Button memory_1, memory_2, memory_3;
+    ButtonRectangle nextwordbutton;
     ProgressBar beisongbar;
 
     public void layoutinit() {
@@ -192,7 +195,7 @@ public class BeisongFragment extends Fragment implements View.OnClickListener{
         level = (TextView) view.findViewById(R.id.beisonglevel);
         memory_1 = (Button) view.findViewById(R.id.memory_1); memory_2 = (Button) view.findViewById(R.id.memory_2);
         memory_3 = (Button) view.findViewById(R.id.memory_3);
-        nextwordbutton = (Button) view.findViewById(R.id.nextwordbutton);
+        nextwordbutton = (ButtonRectangle) view.findViewById(R.id.nextwordbutton);
         memory_1.setOnClickListener(new memorylistener_1()); memory_1.setOnTouchListener(new memorylistener_1());
         memory_2.setOnClickListener(new memorylistener_2()); memory_2.setOnTouchListener(new memorylistener_2());
         memory_3.setOnClickListener(new memorylistener_3()); memory_3.setOnTouchListener(new memorylistener_3());

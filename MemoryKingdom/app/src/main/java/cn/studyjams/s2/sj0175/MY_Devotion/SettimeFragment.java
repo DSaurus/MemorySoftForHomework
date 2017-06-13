@@ -11,6 +11,8 @@ import android.widget.SeekBar;
 import android.widget.TabHost;
 import android.widget.TextView;
 
+import com.gc.materialdesign.views.ButtonRectangle;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -35,7 +37,7 @@ public class SettimeFragment extends Fragment {
     TabHost tablearn;
     TextView[] settimetext = new TextView[5];
     SeekBar[] settimebar = new SeekBar[5];
-    Button[] settimebt = new Button[5];
+    ButtonRectangle[] settimebt = new ButtonRectangle[5];
     int nowsetlayout, ndata;
     String dateform(long t) {
         StringBuffer temp = new StringBuffer();
@@ -219,12 +221,12 @@ public class SettimeFragment extends Fragment {
         settimebar[2] = (SeekBar) view.findViewById(R.id.settimebar3);
         settimebar[3] = (SeekBar) view.findViewById(R.id.settimebar4);
         settimebar[4] = (SeekBar) view.findViewById(R.id.settimebar5);
-        settimebt[0] = (Button) view.findViewById(R.id.settimeconfirm1);
-        settimebt[1] = (Button) view.findViewById(R.id.settimeconfirm2);
-        settimebt[2] = (Button) view.findViewById(R.id.settimeconfirm3);
-        settimebt[3] = (Button) view.findViewById(R.id.settimeconfirm4);
-        settimebt[4] = (Button) view.findViewById(R.id.settimeconfirm5);
-        for(int i = 0; i < 5; i++) settimebt[i].setText("修改");
+        settimebt[0] = (ButtonRectangle) view.findViewById(R.id.settimeconfirm1);
+        settimebt[1] = (ButtonRectangle) view.findViewById(R.id.settimeconfirm2);
+        settimebt[2] = (ButtonRectangle) view.findViewById(R.id.settimeconfirm3);
+        settimebt[3] = (ButtonRectangle) view.findViewById(R.id.settimeconfirm4);
+        settimebt[4] = (ButtonRectangle) view.findViewById(R.id.settimeconfirm5);
+       // for(int i = 0; i < 5; i++) settimebt[i].setText("修改");
     }
 
 

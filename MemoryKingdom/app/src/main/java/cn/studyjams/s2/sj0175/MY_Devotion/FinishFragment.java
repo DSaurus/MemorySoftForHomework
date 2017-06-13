@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.gc.materialdesign.views.ButtonRectangle;
+
 /**
  * Created by sao on 2017/3/2.
  */
@@ -20,7 +22,7 @@ public class FinishFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragmentfinish, container, false);
         listener = (Mylistener) getActivity();
-        Button finish = (Button) view.findViewById(R.id.returnmain);
+        ButtonRectangle finish = (ButtonRectangle) view.findViewById(R.id.returnmain);
         final String str = getArguments().get("data")+"";
         finish.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -38,10 +38,10 @@
             android:layout_height="match_parent"
             >
 
-            <Button
+            <com.gc.materialdesign.views.ButtonRectangle
                 android:text="返回主界面"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:id="@+id/returnmain"
                 style="@style/Widget.AppCompat.Button.Colored"/>
 

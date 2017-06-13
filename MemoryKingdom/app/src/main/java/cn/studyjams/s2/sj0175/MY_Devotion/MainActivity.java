@@ -5,9 +5,15 @@ import android.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import  com.google.firebase.analytics.FirebaseAnalytics;
 import java.util.Stack;
 
@@ -26,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements CountryFragment.M
     }
     TextView titletext;
     ImageButton helper;
+    Toolbar toolbar;
     String helpword = "";
     String[] helpwordarr = new String[8];
     Stack<Integer> stack = new Stack<Integer>();
@@ -85,13 +92,38 @@ public class MainActivity extends AppCompatActivity implements CountryFragment.M
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         setContentView(R.layout.activity_main);
 
         helperinit();
-        titletext = (TextView) findViewById(R.id.titletext);
-        helper = (ImageButton) findViewById(R.id.helper);
-        helper.setOnClickListener(new helperlistener());
+        toolbar=(Toolbar)findViewById(R.id.toolbar);
+        toolbar.setTitle("MemoryKingdom");
+        setSupportActionBar(toolbar);
+
+        toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.action_settings:
+                        new AlertDialog.Builder(MainActivity.this).setTitle("Cat Helper   _(:з」∠)_ ")//设置对话框标题
+                                .setMessage(helpword)//设置显示的内容
+                                .setNegativeButton("返回", new DialogInterface.OnClickListener() {//添加返回按钮
+                                    public void onClick(DialogInterface dialog, int which) {//响应事件
+                                    }
+                                }).show();//在按键响应事件中显示此对话框
+                        break;
+
+                    default:
+                        break;
+
+                }
+                return true;
+            }
+        });
+       // titletext = (TextView) findViewById(R.id.titletext);
+        //helper = (ImageButton) findViewById(R.id.helper);
+        //helper.setOnClickListener(new helperlistener());
         stack.add(0); changelayout(stack.peek());
 
         FragmentTransaction begin = getFragmentManager().beginTransaction();
@@ -207,6 +239,12 @@ public class MainActivity extends AppCompatActivity implements CountryFragment.M
         begin.addToBackStack(null);
         begin.replace(R.id.main, new LoadLoadFragment());
         begin.commit();
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main, menu);
+        return true;
     }
     public void DLFtoLF() {
         onBackPressed();

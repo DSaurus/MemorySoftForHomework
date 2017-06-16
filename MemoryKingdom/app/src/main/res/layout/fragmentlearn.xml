@@ -14,24 +14,27 @@
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:id="@+id/imageView"
-        app:srcCompat="@drawable/memorylist" />
+        app:srcCompat="@drawable/memorylist"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
     </com.andexert.library.RippleView>
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="match_parent">
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="300dp">
 
-            <TextView android:id="@+id/learnempty"
+            <TextView
+                android:id="@+id/learnempty"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="5pt"
                 android:text="什么都没有呀"
-                />
+                android:textSize="5pt" />
 
             <ListView
                 android:id="@+id/learnlist"
@@ -39,9 +42,7 @@
                 android:layout_height="300dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
-                >
-            </ListView>
+                android:layout_marginTop="10dp"></ListView>
 
         </FrameLayout>
 
@@ -54,31 +55,23 @@
             android:layout_alignParentStart="true">
 
             <SeekBar
+                android:id="@+id/learnloadbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:thumb="@mipmap/diefish"
-                android:progressDrawable="@drawable/progressbar"
-                android:splitTrack="false"
                 android:max="100"
-                android:id="@+id/learnloadbar" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@mipmap/moneycat"
-                android:layout_gravity="right"
-                android:id="@+id/moneycat" />
+                android:progressDrawable="@drawable/progressbar"
+                android:splitTrack="false" />
 
         </FrameLayout>
 
         <TextView
-            android:text="滑动咸鱼来导入数据"
-            android:textSize="10dp"
+            android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView4"
             android:layout_above="@+id/framelayoutbar"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:text="滑动来导入数据"
+            android:textSize="10dp" />
 
     </RelativeLayout>
 
